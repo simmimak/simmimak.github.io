@@ -1039,9 +1039,9 @@ select {
 /* Contact Section */
 
 .contact .contact-info-item {
-  flex: 0 0 50%;
-  -ms-flex: 0 0 50%;
-  max-width: 50%;
+  flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
+  max-width: 100%;
   text-align: center;
   margin-bottom: 40px;
 }
@@ -1061,7 +1061,7 @@ select {
 .contact .contact-info-item p {
   font-size: 16px;
   line-height: 25px;
-  color: #504e70;
+  color: #b77c9a;
   font-weight: 400;
 }
 .contact .contact-form {
@@ -1175,7 +1175,6 @@ body.dark .aside .nav li a {
   color: #fff;
 }
 body.dark .contact .contact-form .form-item .form-control,
-body.dark .contact .contact-info-item p,
 body.dark .blog .blog-item-inner .blog-info .blog-tags,
 body.dark .blog .blog-item-inner .blog-info .blog-description,
 body.dark .service .education .timeline .timeline-text,
